@@ -1,0 +1,9 @@
+.form {
+    background-color: #ffffff; /* Light background color */
+    border-radius: 10px; /* Rounded corners */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);  */
+    padding: 30px; /* Increased padding for better spacing */
+    width: 70%; /* Adjusted width for better visibility */
+    max-width: 600px; /* Maximum width to prevent stretching on larger screens */
+    margin: 20px auto; /* Centers the form horizontally */
+}

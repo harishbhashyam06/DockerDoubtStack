@@ -1,0 +1,18 @@
+.questionBody {
+    display: flex;
+    flex-direction: row;
+}
+
+.answer_question_view {
+    width: 17%;
+    display: grid;
+}
+
+.answer_question_text {
+    width: 83%;
+}
+
+.answer_question_text_comments {
+    width: 83%;
+    margin-left: 20%;
+}

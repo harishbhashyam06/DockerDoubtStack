@@ -1,0 +1,33 @@
+/* All the CSS related to answers Page*/
+.answer {
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.answer_votes_data {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.answerText {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.answerAuthor {
+    margin-left: 5%;
+    display: flex;
+    width: 30%;
+}
+
+.answer_author {
+  color: green;
+}
+/* .activity {
+    width: 40%;
+  } */

@@ -1,0 +1,15 @@
+.btns {
+  margin-right: 15%;
+}
+
+.container {
+  flex-direction: column ;
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  flex-grow: 1;
+}

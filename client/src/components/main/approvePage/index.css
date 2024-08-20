@@ -1,0 +1,21 @@
+.approve-div{
+    background-color: green;
+    height: 10vh;
+    border-radius: 20px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.ans-div{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-top: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease; 
+}
+
+.ans-div:hover {
+  transform: scale(1.05); 
+}

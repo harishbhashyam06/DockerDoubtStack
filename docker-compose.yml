@@ -1,0 +1,40 @@
+version: "3.8"
+services:
+  client: 
+    build: ./client
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./client/src:/app/src
+    stdin_open: true
+    tty: true
+    networks:
+      - fake-stackoverflow
+    depends_on:
+      - server
+  server:
+    build: ./server
+    ports:
+      - "8000:8000"
+    volumes:
+      - logs:/app/logs
+      - ./server:/usr/src/app
+    depends_on:
+      - mongodb
+    networks:
+      - fake-stackoverflow
+  mongodb:
+      image: mongo
+      ports:
+      - "27017:27017"
+      volumes:
+        - data:/data/db
+      networks:
+          - fake-stackoverflow
+networks:
+  fake-stackoverflow:
+    driver: bridge
+
+volumes:
+  data:
+  logs:

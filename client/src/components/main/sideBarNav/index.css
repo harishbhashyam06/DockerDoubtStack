@@ -1,0 +1,35 @@
+.sideBarNav {
+  position: fixed;
+  left: 0;
+  align-items: center;
+  background-color: #ececec;
+  height: 100vh;
+}
+
+.menu_button:first-child {
+  margin-top: 0;
+}
+
+.menu_button {
+  text-align: center;
+  cursor: pointer;
+}
+
+.menu_button:hover {
+  background-color: #b4b4b4;
+  cursor: pointer;
+}
+
+.menu_selected {
+  background: #cccccc;
+  cursor: pointer;
+}
+
+@media (max-width: 740px) {
+  .sidebar-inner {
+    margin-left: -12% !important;
+  }
+  .sidebar-text {
+    display: none;
+  }
+}
